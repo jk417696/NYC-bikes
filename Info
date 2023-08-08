@@ -1,0 +1,15 @@
+Dane:
+https://s3.amazonaws.com/tripdata/index.html
+
+Do zrobienia:
+sumaryczne liczby przejazdow (miesiac, rok, godzinowy) 
+histogramy czasow przejazdow (w zaleznosci od por roku) 
+czas przejazdu vs rodzaj rowerow 
+czas przejazdu vs rodzaj platnosci 
+najbardziej oblegane stacje (deficyty, mapka kolorystyczna)
+mapy przejazdów
+modele prognostyczne
+animowany plot popularnosci danej stacji w zaleznosci od godziny (w lockdownie vs bez)
+
+dodatkowo:
+timeline pandemii w ny
