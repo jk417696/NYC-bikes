@@ -21,7 +21,6 @@ def input_csv_from_zip(month: str):
     # Read the CSV file using pandas
     csv_path = 'temp_extracted_folder/' + csv_file_name
     data = pd.read_csv(csv_path)
-
     # Clean up - remove the temporary extracted folder
     os.remove(csv_path)
     os.rmdir('temp_extracted_folder')
