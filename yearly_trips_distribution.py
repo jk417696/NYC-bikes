@@ -45,8 +45,8 @@ def trips_number_month(month: str):
 
 
 months = list(calendar.month_name)[1:]
-
 columns = ['months', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022']
+
 y_2014 = iterate_over_files_year('2014')
 y_2015 = iterate_over_files_year('2015')
 y_2016 = iterate_over_files_year('2016')
