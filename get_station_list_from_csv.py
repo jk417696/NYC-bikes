@@ -22,14 +22,19 @@ def get_station_list(month: str):
     csv_path = 'temp_extracted_folder/' + csv_file_name
     data = pd.read_csv(csv_path)
     data = data.dropna()
-    keys = ['name', 'latitude', 'longitude']
-    station_names_lst = list(data['end_station_name'].unique())
+    data_deficit = pd.read_csv('output_files/csv_files/' + month + '_bike_deficit.csv')
+    data_deficit = data_deficit.dropna()
+    station_names_lst = data_deficit['start_station_name'].tolist()
     stations = []
     for station_name in station_names_lst:
         station = {}
         station['name'] = station_name
-        station['latitude'] = data[data['end_station_name'] == station_name]['end_lat'].tolist()[0]
-        station['longitude'] = data[data['end_station_name'] == station_name]['end_lng'].tolist()[0]
+        station['latitude'] = data[data['start_station_name'] == station_name]['end_lat'].tolist()[0]
+        station['longitude'] = data[data['start_station_name'] == station_name]['end_lng'].tolist()[0]
+        station['deficit'] = data_deficit[data_deficit['start_station_name'] == station_name]['deficit'].tolist()[0]
+        station['popularity'] = data_deficit[data_deficit['start_station_name'] == station_name]['popularity'].tolist()[0]
+        station['deficit_normalized'] = data_deficit[data_deficit['start_station_name'] == station_name]['deficit_normalized'].tolist()[0]
+        station['popularity_normalized'] = data_deficit[data_deficit['start_station_name'] == station_name]['deficit_normalized'].tolist()[0]
         stations.append(station)
     # Clean up - remove the temporary extracted folder
     os.remove(csv_path)
