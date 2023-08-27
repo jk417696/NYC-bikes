@@ -1,4 +1,6 @@
 import zipfile
+
+import numpy as np
 import pandas as pd
 import os
 
@@ -27,6 +29,14 @@ def create_df_bike_deficit(month: str):
     data_end = data_end.rename(columns={'end_station_name': 'start_station_name'})
     result = pd.merge(data_start, data_end, on='start_station_name')
     result['deficit'] = result['start_count'] - result['end_count']
+    result['popularity'] = result['start_count'] + result['end_count']
+    r = np.array(result['deficit'].tolist())
+    r = np.where(r > 0, r / r.max(), np.where(r < 0, -r / r.min(), r))
+    result['deficit_normalized'] = r
+    r = np.array(result['popularity'].tolist())
+    r = np.where(r > 0, r / r.max(), np.where(r < 0, -r / r.min(), r))
+    result['popularity_normalized'] = r
+    result.to_csv('output_files/csv_files/' + month + '_bike_deficit.csv')
     # Clean up - remove the temporary extracted folder
     os.remove(csv_path)
     os.rmdir('temp_extracted_folder')
@@ -40,9 +50,12 @@ def bike_deficit(data):
     data_end = data_end.rename(columns={'end_station_name': 'start_station_name'})
     result = pd.merge(data_start, data_end, on='start_station_name')
     result['deficit'] = result['start_count'] - result['end_count']
+    result['popularity'] = result['start_count'] + result['end_count']
     return result
 
 
 data_202012 = create_df_bike_deficit('202212')
-print(max(data_202012['deficit']))
-print(min(data_202012['deficit']))
+
+print(data_202012.head())
+# print(max(data_202012['deficit']))
+# print(min(data_202012['deficit']))
