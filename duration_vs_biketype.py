@@ -127,4 +127,4 @@ def duration_vs_type(month: str):
     return data
 
 
-duration_vs_type('202202')
+duration_vs_type('202105')

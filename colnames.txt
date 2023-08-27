@@ -1,0 +1,828 @@
+201401
+201401 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201402
+201402 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201403
+201403 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201404
+201404 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201405
+201405 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201406
+201406 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201407
+201407 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201408
+201408 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201409
+201409 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201410
+201410 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201411
+201411 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201412
+201412 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201501
+201501 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201502
+201502 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201503
+201503 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201504
+201504 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201505
+201505 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201506
+201506 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201507
+201507 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201508
+201508 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201509
+201509 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201510
+201510 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201511
+201511 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201512
+201512 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201601
+201601 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201602
+201602 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201603
+201603 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201604
+201604 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201605
+201605 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201606
+201606 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201607
+201607 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201608
+201608 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201609
+201609 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201610
+201610 :  Index(['tripduration', 'Start Time', 'Stop Time', 'Start Station ID',
+       'Start Station Name', 'Start Station Latitude',
+       'Start Station Longitude', 'End Station ID', 'End Station Name',
+       'End Station Latitude', 'End Station Longitude', 'Bike ID', 'User Type',
+       'Birth Year', 'Gender'],
+      dtype='object')
+201611
+201611 :  Index(['tripduration', 'Start Time', 'Stop Time', 'Start Station ID',
+       'Start Station Name', 'Start Station Latitude',
+       'Start Station Longitude', 'End Station ID', 'End Station Name',
+       'End Station Latitude', 'End Station Longitude', 'Bike ID', 'User Type',
+       'Birth Year', 'Gender'],
+      dtype='object')
+201612
+201612 :  Index(['tripduration', 'Start Time', 'Stop Time', 'Start Station ID',
+       'Start Station Name', 'Start Station Latitude',
+       'Start Station Longitude', 'End Station ID', 'End Station Name',
+       'End Station Latitude', 'End Station Longitude', 'Bike ID', 'User Type',
+       'Birth Year', 'Gender'],
+      dtype='object')
+201701
+201701 :  Index(['tripduration', 'Start Time', 'Stop Time', 'Start Station ID',
+       'Start Station Name', 'Start Station Latitude',
+       'Start Station Longitude', 'End Station ID', 'End Station Name',
+       'End Station Latitude', 'End Station Longitude', 'Bike ID', 'User Type',
+       'Birth Year', 'Gender'],
+      dtype='object')
+201702
+201702 :  Index(['tripduration', 'Start Time', 'Stop Time', 'Start Station ID',
+       'Start Station Name', 'Start Station Latitude',
+       'Start Station Longitude', 'End Station ID', 'End Station Name',
+       'End Station Latitude', 'End Station Longitude', 'Bike ID', 'User Type',
+       'Birth Year', 'Gender'],
+      dtype='object')
+201703
+201703 :  Index(['tripduration', 'Start Time', 'Stop Time', 'Start Station ID',
+       'Start Station Name', 'Start Station Latitude',
+       'Start Station Longitude', 'End Station ID', 'End Station Name',
+       'End Station Latitude', 'End Station Longitude', 'Bike ID', 'User Type',
+       'Birth Year', 'Gender'],
+      dtype='object')
+201704
+201704 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201705
+201705 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201706
+201706 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201707
+201707 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201708
+201708 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201709
+201709 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201710
+201710 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201711
+201711 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201712
+201712 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201801
+201801 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201802
+201802 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201803
+201803 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201804
+201804 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201805
+201805 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201806
+201806 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201807
+201807 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201808
+201808 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201809
+201809 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201810
+201810 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201811
+201811 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201812
+201812 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201901
+201901 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201902
+201902 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201903
+201903 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201904
+201904 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201905
+201905 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201906
+201906 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201907
+201907 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201908
+201908 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201909
+201909 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201910
+201910 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201911
+201911 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+201912
+201912 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+202001
+202001 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+202002
+202002 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+202003
+202003 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+202004
+202004 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+202005
+202005 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+202006
+202006 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+202007
+202007 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+202008
+202008 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+202009
+202009 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+202010
+202010 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+202011
+202011 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+202012
+202012 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+202101
+202101 :  Index(['tripduration', 'starttime', 'stoptime', 'start station id',
+       'start station name', 'start station latitude',
+       'start station longitude', 'end station id', 'end station name',
+       'end station latitude', 'end station longitude', 'bikeid', 'usertype',
+       'birth year', 'gender'],
+      dtype='object')
+202102
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202102 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202103
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202103 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202104
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202104 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202105
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202105 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202106
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202106 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202107
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202107 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202108
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202108 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202109
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202109 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202110
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202110 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202111
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202111 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202112
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202112 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202201
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202201 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202202
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202202 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202203
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202203 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202204
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202204 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202205
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202205 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202206
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202206 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202207
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202207 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202208
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202208 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202209
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202209 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202210
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202210 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202211
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202211 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202212
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202212 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202301
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202301 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202302
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202302 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202303
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202303 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202304
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202304 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202305
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202305 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+202306
+/home/justyna/MIM/Ruch uliczny/NYC-bikes/duration_vs_biketype.py:75: DtypeWarning: Columns (5,7) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(csv_path)
+202306 :  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual'],
+      dtype='object')
+

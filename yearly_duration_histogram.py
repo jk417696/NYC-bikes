@@ -6,6 +6,7 @@ import numpy as np
 import matplotlib.ticker as ticker
 from datetime import datetime
 import math
+import imageio
 
 
 def input_csv_from_zip(month: str):
@@ -96,8 +97,8 @@ def duration_histogram_year(year: str):
     avg_duration = np.mean(data.tripduration)/60
     plt.axvline(x=int(avg_duration)+0.5, color='darkred', alpha=0.5)
     plt.text(int(avg_duration)+1, 10000, 'Average duration: '+str(int(avg_duration))+' min', rotation=90)
-    plt.title('Trip duration in '+year, fontsize=32)
-    plt.xlabel('Duration (in min)', fontsize=20)
+    plt.title('Trip duration in '+year, fontsize=32, color='#ff5e0e')
+    plt.xlabel('Duration (in min)', fontsize=26, color='#695d46')
     plt.xticks(ticks=np.append(np.arange(5.5, 59, 5), [61.5]),
                labels=np.append(np.arange(5, 59, 5), ['60+']))
     plt.xlim(1, 62)
@@ -143,11 +144,23 @@ def duration_histogram_quarter(year: str, quarter: int):
     plt.close()
 
 
-
 for year in range(2014, 2023):
-    for quarter in range(1, 5):
-        duration_histogram_quarter(str(year), quarter)
-duration_histogram_quarter('2023', 1)
-duration_histogram_quarter('2023', 2)
-duration_histogram_quarter('2013', 3)
-duration_histogram_quarter('2013', 4)
+    duration_histogram_year(str(year))
+
+def create_duration_gif():
+    figure = []
+    for year in range(2014, 2023):
+        image = imageio.v2.imread('./output_files/plots/yearly_duration_histogram_' + str(year) + '.png')
+        figure.append(image)
+    imageio.mimsave('./output_files/gifs/yearly_duration_histogram.gif', figure, duration=300, loop=10)
+
+
+create_duration_gif()
+
+# for year in range(2014, 2023):
+#     for quarter in range(1, 5):
+#         duration_histogram_quarter(str(year), quarter)
+# duration_histogram_quarter('2023', 1)
+# duration_histogram_quarter('2023', 2)
+# duration_histogram_quarter('2013', 3)
+# duration_histogram_quarter('2013', 4)
