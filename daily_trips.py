@@ -58,25 +58,27 @@ def daily_trips_year(year: str, df_func):
     return daily_trips
 
 
-# Create plot with number of trips
+# Create a plot with number of trips
 
-data = pd.read_csv('./output_files/csv_files/daily_trips.csv')
+data = pd.read_csv('./output_files/csv_files/daily_trips.csv', parse_dates=['date'])
+data = data.set_index('date')
 
-print(data[data.trips == min(data.trips)])
-#
-# plt.style.use('ggplot')
-# fig, ax = plt.subplots(figsize=(12, 10))
-# plt.scatter(data.date, data.trips, color='#008575', s=5)
-# plt.title('Daily number of trips', color='#ff5e0e', fontsize=32)
-# plt.xlabel('Date', color='#695d46', fontsize=20)
-# plt.ylim(0, 150000)
-# # plt.ylabel('Number of trips', color='#695d46', fontsize=26)
-# # plt.xlim(min(data.date), max(data.date))
-# ax.xaxis.set_major_locator(mdates.MonthLocator(interval=3))
-# ticks_y = ticker.FuncFormatter(lambda x, pos: '{0:g}K'.format(x / 1000))
-# plt.xticks(rotation=90, size=14)
-# plt.yticks(size=16)
-# ax.yaxis.set_major_formatter(ticks_y)
-# plt.tight_layout()
-# plt.savefig('output_files/plots/daily_trips.png')
+plt.style.use('ggplot')
+fig, ax = plt.subplots(figsize=(12, 10))
+plt.scatter(data.index, data.trips, color='#008575', s=5)
+plt.title('Daily number of trips', color='#ff5e0e', fontsize=32)
+plt.xlabel('Date', color='#695d46', fontsize=20)
+plt.ylim(0, 150000)
+# plt.ylabel('Number of trips', color='#695d46', fontsize=26)
+# plt.xlim(min(data.date), max(data.date))
+ax.xaxis.set_major_locator(mdates.MonthLocator(interval=3))
+ticks_y = ticker.FuncFormatter(lambda x, pos: '{0:g}K'.format(x / 1000))
+plt.xticks(rotation=90, size=14)
+plt.yticks(size=16)
+ax.yaxis.set_major_formatter(ticks_y)
+
+avg_trips_month = data.trips.resample('MS').mean()
+plt.plot(avg_trips_month, color='#695d46', linewidth=2)
+plt.tight_layout()
+plt.savefig('output_files/plots/daily_trips.png')
 
