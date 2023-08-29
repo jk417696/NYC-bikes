@@ -1,6 +1,8 @@
 import os
 import zipfile
 import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 
 
 def trips_number_month(month: str):
@@ -54,7 +56,23 @@ def iterate_over_all_files(df_func):
     return yearly_trips
 
 
-df = iterate_over_all_files(trips_number_month)
-columns = ['Year', 'Yearly_trips']
-df = pd.DataFrame(df, columns=columns)
-df.to_csv('output_files/csv_files/yearly_trips.csv')
+# df = iterate_over_all_files(trips_number_month)
+# columns = ['Year', 'Yearly_trips']
+# df = pd.DataFrame(df, columns=columns)
+# df.to_csv('output_files/csv_files/yearly_trips.csv')
+
+
+# Create plot with number of trips
+data = pd.read_csv('./output_files/csv_files/yearly_trips.csv')
+data = data[data.Year.isin(range(2014, 2023))]
+
+plt.style.use('ggplot')
+fig, ax = plt.subplots(figsize=(12, 10))
+plt.plot(data.Year, data.Yearly_trips, color='#008575')
+plt.title('Number of trips', color='#ff5e0e', fontsize=32)
+plt.xlabel('Year', color='#695d46', fontsize=20)
+# plt.ylabel('Number of trips', color='#695d46', fontsize=26)
+ticks_y = ticker.FuncFormatter(lambda x, pos: '{0:g}MLN'.format(x / 1000000))
+ax.yaxis.set_major_formatter(ticks_y)
+plt.savefig('./output_files/plots/yearly_trips.png')
+plt.close()
