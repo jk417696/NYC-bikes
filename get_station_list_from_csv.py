@@ -33,8 +33,6 @@ def get_station_list(month: str):
         station['longitude'] = data[data['start_station_name'] == station_name]['end_lng'].tolist()[0]
         station['deficit'] = data_deficit[data_deficit['start_station_name'] == station_name]['deficit'].tolist()[0]
         station['popularity'] = data_deficit[data_deficit['start_station_name'] == station_name]['popularity'].tolist()[0]
-        station['deficit_normalized'] = data_deficit[data_deficit['start_station_name'] == station_name]['deficit_normalized'].tolist()[0]
-        station['popularity_normalized'] = data_deficit[data_deficit['start_station_name'] == station_name]['deficit_normalized'].tolist()[0]
         stations.append(station)
     # Clean up - remove the temporary extracted folder
     os.remove(csv_path)
