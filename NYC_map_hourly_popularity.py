@@ -6,7 +6,7 @@ import os
 import zipfile
 
 
-def hourly_deficit_map(month: str):
+def hourly_popularity_map_over_weekday(month: str, day_of_week: int):
     """
     :param month: format yyyymm
     """
@@ -28,18 +28,22 @@ def hourly_deficit_map(month: str):
 
     nyc_coords = (40.7128, -74.0060)
 
-    deficit_data = pd.read_csv('output_files/csv_files/202212_hourly_rent_return.csv')
+    deficit_data = pd.read_csv('output_files/csv_files/' + month + '_hourly_rent_return_' + str(day_of_week) + '.csv')
     station_names = data['start_station_name'].unique()
 
-    min_val = deficit_data['deficit'].min()
-    max_val = deficit_data['deficit'].max()
-    color_palette = ['#ff5e0e', '#ffa172', '#ffdfcf', '#c3eee9', '#60d1c3', '#008575']
+    min_val = deficit_data['popularity'].min()
+    max_val = deficit_data['popularity'].max()
+    color_palette = ['#008575', '#c3eee9', '#ffa172', '#ff5e0e']
+    color_palette = ['#008575', '#ffa172', '#ff5e0e']
 
     colormap = cm.StepColormap(colors=color_palette,
                                # colors=['red', 'orangered', 'orange', 'yellowgreen', 'lawngreen', 'green'],
-                               index=[min_val, -30, -10, 0, 10, 30, max_val],
+                               index=[0, 1, 4, max_val],
                                vmin=min_val,
                                vmax=max_val)
+
+    new_dir = 'output_files/maps/maps_for_gif/' + month + '_day_of_week_' + str(day_of_week)
+    # os.mkdir(new_dir)
 
     for hour in range(24):
         temp_data = deficit_data[deficit_data['hour'] == hour]
@@ -49,8 +53,8 @@ def hourly_deficit_map(month: str):
         for item in station_names:
             lat = data[data['start_station_name'] == item]['start_lat'].tolist()[0]
             lon = data[data['start_station_name'] == item]['start_lng'].tolist()[0]
-            if temp_data[temp_data['station_name'] == item]['deficit'].tolist():
-                value = temp_data[temp_data['station_name'] == item]['deficit'].tolist()[0]
+            if temp_data[temp_data['station_name'] == item]['popularity'].tolist():
+                value = temp_data[temp_data['station_name'] == item]['popularity'].tolist()[0]
             else:
                 value = 0
             color = colormap(value)
@@ -68,21 +72,20 @@ def hourly_deficit_map(month: str):
         <h3 align="center" style="font-size:20px"><b>Bikes deficit across stations in NYC</b></h3>
         '''
         nyc_map.get_root().html.add_child(folium.Element(title_html))
-
-        legend_html = '''
+        hour_1 = hour+1
+        legend_html = f'''
         <div style="position: fixed; bottom: 50px; left: 50px; z-index: 1000; padding: 10px; background-color: gainsboro; border: 2px solid grey; border-radius: 5px;">
           <p><strong>LEGEND</strong></p>
-          <p>Bikes rental to return ratio</p>
+          <p><strong>Average station popularity on Monday in July 2022</strong></p>
+          <p><strong>{hour}:00 - {hour_1}:00</strong></p>
+          <p>Bike station popularity</p>
         '''
 
-        color_palette = ['#ff5e0e', '#ffa172', '#ffdfcf', '#c3eee9', '#60d1c3', '#008575']
+        color_palette = ['#008575', '#c3eee9', '#ffa172', '#ff5e0e']
         legend_data = {
-            '< -30': '#ff5e0e',
-            '-30 to -10': '#ffa172',
-            '-10 to 0': '#ffdfcf',
-            '0 to 10': '#c3eee9',
-            '10 to 30': '#60d1c3',
-            '> 30': '#008575'
+            '< 2': '#008575',
+            '2 to 5': '#ffa172',
+            '> 5': '#ff5e0e'
         }
 
         for category, color in legend_data.items():
@@ -90,9 +93,8 @@ def hourly_deficit_map(month: str):
 
         legend_html += '</div>'
         nyc_map.get_root().html.add_child(folium.Element(legend_html))
-
-        nyc_map.save("output_files/maps/maps_for_gif/nyc_" + str(hour) + ".html")
-        webbrowser.open("output_files/maps/maps_for_gif/nyc_" + str(hour) + ".html")
+        file_dir = new_dir + '/' + month + 'day_of_week_' + str(day_of_week) + '_hour_' + str(hour) + ".html"
+        nyc_map.save(file_dir)
 
     # Clean up - remove the temporary extracted folder
     os.remove(csv_path)
@@ -100,4 +102,5 @@ def hourly_deficit_map(month: str):
     return data
 
 
-hourly_deficit_map('202212')
+# hourly_popularity_map_over_weekday('202208', day_of_week=3)
+hourly_popularity_map_over_weekday('202207', day_of_week=0)
